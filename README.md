@@ -1,2 +1,4 @@
 # restaurant
-design about restaurant
+## design about italian restaurant
+Italian restaurant to serve Italian food and Italian recipes, and includes the most famous Italian food.
+## live preview => https://toscani.netlify.app/
