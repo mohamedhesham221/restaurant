@@ -94,7 +94,7 @@ article .home{
     font-size: 1em;
 }
 
-.home h1{
+.home h2{
     font-size: 4em;
     font-weight: 1000px;
 }
@@ -103,7 +103,7 @@ article .home{
     font-size: .9em;
 }
 
-.home button{
+.home {
     width: 190px;
     height: 50px;
     border-radius: 50px;
@@ -115,12 +115,14 @@ article .home{
     cursor: pointer;
 }
 
-.home button a{
-    text-decoration: none;
+.home .btn{
+    background-color: #F42F2C;
+}
+.home .btn a{
     color: #FEFEFD;
 }
 
-.home button:hover{
+.home .btn:hover{
     border: 1px solid #FEFEFD;
     background-color: transparent;
 }
@@ -212,7 +214,7 @@ article .home{
     padding-top: 150px;
 }*/
 
-span h5 {
+span .title {
     font-size: 1em;
 }
 
@@ -222,7 +224,7 @@ span i{
     color: whitesmoke;
 }
 
-span p{
+span .desc{
     font-size: .8em;
     line-height: 1.5;
 }
@@ -290,6 +292,8 @@ span p{
 }
 
 .video video{
+    width: 850px;
+    height: 400px;
     position: absolute;
     top: 50px;
     left: 240px;
@@ -743,7 +747,7 @@ line-height: 1.3;
 .contact form button:hover{
 background-color: transparent;
 }
-.contact form h1{
+.contact form h2{
     float: left;
     margin-top: 70px;
     font-size: 4em;
@@ -753,7 +757,7 @@ background-color: transparent;
     display: none;
 }
 
-.contact form h1 i{
+.contact form h2 i{
  color: #c91411;
  display: none;
 
